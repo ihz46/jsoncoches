@@ -1,1 +1,129 @@
-"SELECT p.id 'id_pokemon', p.nombre 'nombre_pokemon', h.nombre 'nombre_habilidad', h.id 'id_habilidad' FROM pokemon p, pokemon_has_habilidades ph, habilidad h  WHERE p.id = ph.id_pokemon AND ph.id_habilidad = h.id AND p.nombre LIKE ? ORDER BY p.id DESC LIMIT 500;"
+[
+	{
+	"id":1,
+	"marca":"audi",
+	"modelo":"RS6",
+	"potencia":605,
+	"precio":90300,
+	"imagen":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Audi_RS6_Avant_IMG_0740.jpg/1200px-Audi_RS6_Avant_IMG_0740.jpg"
+	},
+	{
+	"id":2,
+	"marca":"bmw",
+	"modelo":"M3 E46",
+	"potencia":343,
+	"precio":32000,
+	"imagen":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/BMW_M3_E46_-_Flickr_-_Alexandre_Pr%C3%A9vot_%2812%29.jpg/1200px-BMW_M3_E46_-_Flickr_-_Alexandre_Pr%C3%A9vot_%2812%29.jpg"
+	},
+	{
+	"id":3,
+	"marca":"ferrari",
+	"modelo":"enzo",
+	"potencia":660,
+	"precio":250939,
+	"imagen":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Orange_Enzo_Ferrari_%287191948164%29.jpg/1200px-Orange_Enzo_Ferrari_%287191948164%29.jpg"
+
+	},
+	{
+	"id":4,
+	"marca":"mitsubishi",
+	"modelo":"lancer evo IX MR",
+	"potencia":590,
+	"precio":42039,
+	"imagen":"http://img.pistonheads.com.s3-eu-west-1.amazonaws.com/LargeSize/mitsubishi/lancer/2-0-evo-ix-mr-fq-300-4dr/mitsubishi-lancer-2-0-evo-ix-mr-fq-300-4dr-184793828-15.jpg"
+	},
+		{
+	"id":5,
+	"marca":"ford",
+	"modelo":"focus rs",
+	"potencia":305,
+	"precio":40000,
+	"imagen":"https://i.ytimg.com/vi/_CskN9aEpYk/maxresdefault.jpg"
+	},
+		{
+	"id":6,
+	"marca":"ford",
+	"modelo":"shelby GT500",
+	"potencia":450,
+	"precio":90928
+	"imagen":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Ford_Mustang_Shelby_G.T._500.jpg/1200px-Ford_Mustang_Shelby_G.T._500.jpg"
+	},
+		{
+	"id":7,
+	"marca":"mercedes-benz",
+	"modelo":"G63 AMG",
+	"potencia":590,
+	"precio":249313,
+	"imagen":"https://hips.hearstapps.com/amv-prod-cad-assets.s3.amazonaws.com/images/16q1/665019/2016-mercedes-amg-g63-4matic-test-review-car-and-driver-photo-665514-s-original.jpg"
+	},
+		{
+	"id":8,
+	"marca":"lotus ",
+	"modelo":"evora",
+	"potencia":240,
+	"precio":130928,
+	"imagen":"https://i.ytimg.com/vi/sSWioqp8kZk/maxresdefault.jpg"
+	},
+	{
+	"id":9,
+	"marca":"porsche",
+	"modelo":"taycan",
+	"potencia":800,
+	"precio":250928,
+	"imagen":"https://i.blogs.es/ae0da2/porsche/1366_2000.jpg"
+	},
+	{
+	"id":10,
+	"marca":"peugeot",
+	"modelo":"205 T16",
+	"potencia":500,
+	"precio":912020,
+	"imagen":"https://i.ytimg.com/vi/cd9-9m7kW1Y/maxresdefault.jpg"
+	},
+	{
+	"id":11,
+	"marca":"lancia",
+	"modelo":"delta integrale",
+	"potencia":220,
+	"precio":67892,
+	"imagen":"https://impactbumpers.com/forum/uploads/monthly_2018_08/Lancia.thumb.jpg.7fc2a24bf384ab5802426940a9c79133.jpg"
+	},
+	{
+	"id":12,
+	"marca":"ford",
+	"modelo":"rs200",
+	"potencia":500,
+	"precio":912020,
+	"imagen":"https://es.wikipedia.org/wiki/Ford_RS200#/media/Archivo:Ford_RS200.jpg"
+	},
+	{
+	"id":13,
+	"marca":"peugeot",
+	"modelo":"206 WRC",
+	"potencia":550,
+	"precio":473633,
+	"imagen":"https://www.wsupercars.com/wallpapers/Peugeot/1999-Peugeot-206-WRC-V2-1080.jpg"
+	},
+	{
+	"id":14,
+	"marca":"honda",
+	"modelo":"civic vti",
+	"potencia":160,
+	"precio":5000,
+	"imagen":"https://4.bp.blogspot.com/-EQ_yxRSSQu0/Ullg6CyjYWI/AAAAAAAA7GQ/aD18a5scWPI/s00/Honda-Civic-EG-Tuning-Car-1920x1080.jpg"
+	},
+	{
+	"id":15,
+	"marca":"mazda",
+	"modelo":"RX7",
+	"potencia":800,
+	"precio":89303,
+	"imagen":"https://www.ultrahdwalls.com/wp-content/uploads/wallpapers/cars/car1/mazda-rx-7-mazda-tuning-car-black-matte-cars-mobile-wallpaper.jpg"
+	}
+	
+	
+
+
+]
+
+
